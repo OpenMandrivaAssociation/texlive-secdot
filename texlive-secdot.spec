@@ -45,6 +45,7 @@ with other sectioning commands.
 %{_texmfdistdir}/tex/latex/secdot/secdot.sty
 %doc %{_texmfdistdir}/doc/latex/secdot/secdot.ltx
 %doc %{_texmfdistdir}/doc/latex/secdot/secdot.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +56,5 @@ with other sectioning commands.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
