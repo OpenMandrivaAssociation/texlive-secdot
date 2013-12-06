@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-secdot
 Version:	1.0
-Release:	3
+Release:	4
 Summary:	Section numbers with trailing dots
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/secdot
