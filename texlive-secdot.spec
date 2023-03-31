@@ -1,6 +1,6 @@
 Name:		texlive-secdot
 Version:	20208
-Release:	1
+Release:	2
 Summary:	Section numbers with trailing dots
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/secdot
