@@ -3,7 +3,7 @@ Version:	20208
 Release:	2
 Summary:	Section numbers with trailing dots
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/secdot
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/secdot
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/secdot.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/secdot.doc.r%{version}.tar.xz
